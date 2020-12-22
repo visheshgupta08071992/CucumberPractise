@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.349">
+<testcase classname="Amazon Search" name="Search a Product" time="0.114">
+<system-out><![CDATA[Given Search box is available on Amazon.....................................passed
+When I search a product named 'Apple Macbook' and price is 10000............passed
+Then Product with Name 'Apple Macbook' should be displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Search" name="Search a Product 2" time="0.01">
+<system-out><![CDATA[Given Search box is available on Amazon.....................................passed
+When I search a product named 'Apple Macbook' and price is 10000............passed
+Then Product with Name 'Apple Macbook' should be displayed..................passed
+]]></system-out>
+</testcase>
+</testsuite>

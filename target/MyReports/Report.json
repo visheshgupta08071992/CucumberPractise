@@ -1,0 +1,320 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T07:43:24.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.setup_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.setup_url(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Search a Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.Teardown_browser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "Search box is available on Amazon",
+            "match": {
+              "location": "step_definitions.MyStepdefs.searchBoxIsAvailableOnAmazon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I search a product named \u0027Apple Macbook\u0027 and price is 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Apple Macbook\u0027",
+                  "offset": 25
+                },
+                {
+                  "val": "10000",
+                  "offset": 54
+                }
+              ],
+              "location": "step_definitions.MyStepdefs.iSearchAProductNamedAppleMacbookAndPriceIs(java.lang.String,int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Product with Name \u0027Apple Macbook\u0027 should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Apple Macbook\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.MyStepdefs.productWithNameAppleMacbookShouldBeDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T07:43:24.183Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.setup_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.setup_url(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search a Product",
+        "description": "",
+        "id": "amazon-search;search-a-product",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AmazonHooks.Teardown_browser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Search box is available on Amazon",
+            "match": {
+              "location": "step_definitions.MyStepdefs.searchBoxIsAvailableOnAmazon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I search a product named \u0027Apple Macbook\u0027 and price is 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Apple Macbook\u0027",
+                  "offset": 25
+                },
+                {
+                  "val": "10000",
+                  "offset": 54
+                }
+              ],
+              "location": "step_definitions.MyStepdefs.iSearchAProductNamedAppleMacbookAndPriceIs(java.lang.String,int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.takeScreenshot()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "Product with Name \u0027Apple Macbook\u0027 should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Apple Macbook\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definitions.MyStepdefs.productWithNameAppleMacbookShouldBeDisplayed(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AmazonHooks.refresh()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeature/Search.feature",
+    "tags": []
+  }
+]
