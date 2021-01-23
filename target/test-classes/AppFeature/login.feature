@@ -10,3 +10,9 @@ Feature: Test login functionality
       |incorrectUsername|  12345 |
       |vishesh|  incorrectpassword |
       |incorrectUsername| incorrectPassword |
+
+
+    Scenario: Checking
+      Given Not using Scenario Out
+
+

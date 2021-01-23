@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284e2f74-025b-4b24-9aea-aba88e08ca56" name="Default Changelist" comment="" />
+    <list default="true" id="284e2f74-025b-4b24-9aea-aba88e08ca56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/AppFeature/StepDef.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/AppFeature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AppFeature/login.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lifmYS1gUoF6s3TQ1d3XUlccKj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -26,6 +37,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/appdirect/appdirect-parent/appdirect/src/main/groovy" />
@@ -60,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BillAmountTest">
+  <component name="RunManager" selected="Cucumber java.Feature: login">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -200,18 +212,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.registrationTest" />
       <item itemvalue="Cucumber java.Feature: login" />
-      <item itemvalue="JUnit.loginTest" />
       <item itemvalue="Cucumber java.Feature: BillAmount" />
+      <item itemvalue="JUnit.registrationTest" />
+      <item itemvalue="JUnit.loginTest" />
       <item itemvalue="JUnit.BillAmountTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="JUnit.BillAmountTest" />
         <item itemvalue="Cucumber java.Feature: BillAmount" />
         <item itemvalue="JUnit.loginTest" />
-        <item itemvalue="Cucumber java.Feature: login" />
         <item itemvalue="JUnit.registrationTest" />
       </list>
     </recent_temporary>
@@ -230,12 +242,26 @@
       <workItem from="1608099523597" duration="194000" />
       <workItem from="1608100198352" duration="38000" />
       <workItem from="1608171091677" duration="3528000" />
-      <workItem from="1608175616448" duration="12522000" />
+      <workItem from="1608175616448" duration="13804000" />
+      <workItem from="1611377955057" duration="5225000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CucumberPractise$Feature__Registration.ic" NAME="Feature: Registration Coverage Results" MODIFIED="1608453902035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
